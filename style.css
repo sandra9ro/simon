@@ -138,3 +138,17 @@ body{
 
 }
 
+.animated{
+  animation-name: lightUp;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes lightUp{
+  from{
+    opacity: 100%;
+  }
+  to{
+    opacity: 60%;
+  }
+}
